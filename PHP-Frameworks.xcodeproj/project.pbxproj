@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BF2B0F4275F085C00CC82EB /* PHP_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B0F3275F085C00CC82EB /* PHP_FrameworksApp.swift */; };
+		8BF2B0F8275F085E00CC82EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2B0F7275F085E00CC82EB /* Assets.xcassets */; };
+		8BF2B0FB275F085E00CC82EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2B0FA275F085E00CC82EB /* Preview Assets.xcassets */; };
+		8BF2B102275F095B00CC82EB /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B101275F095B00CC82EB /* Framework.swift */; };
+		8BF2B104275F4D6A00CC82EB /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B103275F4D6A00CC82EB /* FrameworkGridView.swift */; };
+		8BF2B1062760AB0A00CC82EB /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B1052760AB0A00CC82EB /* FrameworkTitleView.swift */; };
+		8BF2B1082760AC8100CC82EB /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B1072760AC8100CC82EB /* FrameworkDetailView.swift */; };
+		8BF2B10A2761F95200CC82EB /* PHP-FButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B1092761F95100CC82EB /* PHP-FButton.swift */; };
+		8BF2B10C27632CB100CC82EB /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B10B27632CB100CC82EB /* FrameworkGridViewModel.swift */; };
+		8BF2B10E27635E1600CC82EB /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B10D27635E1600CC82EB /* SafariView.swift */; };
+		8BF2B1102765D14F00CC82EB /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2B10F2765D14F00CC82EB /* XDismissButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BF2B0F0275F085C00CC82EB /* PHP-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PHP-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF2B0F3275F085C00CC82EB /* PHP_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHP_FrameworksApp.swift; sourceTree = "<group>"; };
+		8BF2B0F7275F085E00CC82EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BF2B0FA275F085E00CC82EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BF2B101275F095B00CC82EB /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		8BF2B103275F4D6A00CC82EB /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		8BF2B1052760AB0A00CC82EB /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		8BF2B1072760AC8100CC82EB /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		8BF2B1092761F95100CC82EB /* PHP-FButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHP-FButton.swift"; sourceTree = "<group>"; };
+		8BF2B10B27632CB100CC82EB /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		8BF2B10D27635E1600CC82EB /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		8BF2B10F2765D14F00CC82EB /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF2B0ED275F085C00CC82EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BF2B0E7275F085C00CC82EB = {
+			isa = PBXGroup;
+			children = (
+				8BF2B0F2275F085C00CC82EB /* PHP-Frameworks */,
+				8BF2B0F1275F085C00CC82EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF2B0F1275F085C00CC82EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B0F0275F085C00CC82EB /* PHP-Frameworks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF2B0F2275F085C00CC82EB /* PHP-Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B11827675ACB00CC82EB /* UIKit Components */,
+				8BF2B11627675A7800CC82EB /* Model */,
+				8BF2B11427675A6700CC82EB /* Views */,
+				8BF2B111276759DB00CC82EB /* Screens */,
+				8BF2B0F3275F085C00CC82EB /* PHP_FrameworksApp.swift */,
+				8BF2B0F7275F085E00CC82EB /* Assets.xcassets */,
+				8BF2B0F9275F085E00CC82EB /* Preview Content */,
+			);
+			path = "PHP-Frameworks";
+			sourceTree = "<group>";
+		};
+		8BF2B0F9275F085E00CC82EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B0FA275F085E00CC82EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BF2B111276759DB00CC82EB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B11327675A3600CC82EB /* FrameworkDetailView */,
+				8BF2B112276759FD00CC82EB /* FrameworkGridView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8BF2B112276759FD00CC82EB /* FrameworkGridView */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B103275F4D6A00CC82EB /* FrameworkGridView.swift */,
+				8BF2B10B27632CB100CC82EB /* FrameworkGridViewModel.swift */,
+			);
+			path = FrameworkGridView;
+			sourceTree = "<group>";
+		};
+		8BF2B11327675A3600CC82EB /* FrameworkDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B1072760AC8100CC82EB /* FrameworkDetailView.swift */,
+			);
+			path = FrameworkDetailView;
+			sourceTree = "<group>";
+		};
+		8BF2B11427675A6700CC82EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B11727675AB400CC82EB /* View */,
+				8BF2B11527675A7000CC82EB /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BF2B11527675A7000CC82EB /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B1092761F95100CC82EB /* PHP-FButton.swift */,
+				8BF2B10F2765D14F00CC82EB /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		8BF2B11627675A7800CC82EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B101275F095B00CC82EB /* Framework.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BF2B11727675AB400CC82EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B1052760AB0A00CC82EB /* FrameworkTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BF2B11827675ACB00CC82EB /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2B10D27635E1600CC82EB /* SafariView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BF2B0EF275F085C00CC82EB /* PHP-Frameworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF2B0FE275F085E00CC82EB /* Build configuration list for PBXNativeTarget "PHP-Frameworks" */;
+			buildPhases = (
+				8BF2B0EC275F085C00CC82EB /* Sources */,
+				8BF2B0ED275F085C00CC82EB /* Frameworks */,
+				8BF2B0EE275F085C00CC82EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PHP-Frameworks";
+			productName = "PHP-Frameworks";
+			productReference = 8BF2B0F0275F085C00CC82EB /* PHP-Frameworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF2B0E8275F085C00CC82EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					8BF2B0EF275F085C00CC82EB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BF2B0EB275F085C00CC82EB /* Build configuration list for PBXProject "PHP-Frameworks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BF2B0E7275F085C00CC82EB;
+			productRefGroup = 8BF2B0F1275F085C00CC82EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF2B0EF275F085C00CC82EB /* PHP-Frameworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF2B0EE275F085C00CC82EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2B0FB275F085E00CC82EB /* Preview Assets.xcassets in Resources */,
+				8BF2B0F8275F085E00CC82EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF2B0EC275F085C00CC82EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2B104275F4D6A00CC82EB /* FrameworkGridView.swift in Sources */,
+				8BF2B1082760AC8100CC82EB /* FrameworkDetailView.swift in Sources */,
+				8BF2B1102765D14F00CC82EB /* XDismissButton.swift in Sources */,
+				8BF2B102275F095B00CC82EB /* Framework.swift in Sources */,
+				8BF2B1062760AB0A00CC82EB /* FrameworkTitleView.swift in Sources */,
+				8BF2B10E27635E1600CC82EB /* SafariView.swift in Sources */,
+				8BF2B0F4275F085C00CC82EB /* PHP_FrameworksApp.swift in Sources */,
+				8BF2B10C27632CB100CC82EB /* FrameworkGridViewModel.swift in Sources */,
+				8BF2B10A2761F95200CC82EB /* PHP-FButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BF2B0FC275F085E00CC82EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BF2B0FD275F085E00CC82EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BF2B0FF275F085E00CC82EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PHP-Frameworks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karlinocencio.PHP-Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BF2B100275F085E00CC82EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PHP-Frameworks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karlinocencio.PHP-Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF2B0EB275F085C00CC82EB /* Build configuration list for PBXProject "PHP-Frameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2B0FC275F085E00CC82EB /* Debug */,
+				8BF2B0FD275F085E00CC82EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF2B0FE275F085E00CC82EB /* Build configuration list for PBXNativeTarget "PHP-Frameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2B0FF275F085E00CC82EB /* Debug */,
+				8BF2B100275F085E00CC82EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF2B0E8275F085C00CC82EB /* Project object */;
+}
