@@ -44,5 +44,6 @@ struct FrameworkDetailView_Previews: PreviewProvider {
     static var previews: some View {
         FrameworkDetailView(framework: FrameworkData.samplePHPframeworks,
                             isShowingDetailView: .constant(false))
+            .preferredColorScheme(.light)
     }
 }
