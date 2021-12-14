@@ -28,5 +28,7 @@ struct FrameworkTitleView: View {
 struct FrameworkTitleView_Previews: PreviewProvider {
     static var previews: some View {
         FrameworkTitleView(framework: FrameworkData.samplePHPframeworks)
+        FrameworkTitleView(framework: FrameworkData.samplePHPframeworks)
+            .preferredColorScheme(.dark)
     }
 }

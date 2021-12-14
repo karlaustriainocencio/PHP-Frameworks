@@ -34,6 +34,7 @@ struct FrameworkGridView: View {
 struct FrameworkGridView_Previews: PreviewProvider {
     static var previews: some View {
         FrameworkGridView()
+        FrameworkGridView()
             .preferredColorScheme(.dark)
             
     }
