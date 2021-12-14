@@ -8,7 +8,7 @@ For additional information that for some people that may not know what is **PHP 
 ![images/dark-mode-php-framework.png](images/PHP-frameworks_light-dark-mode_screenshot.png)
 
 
-Here's my screenshots for this PHP framework App.
+Here's my screenshots light & dark mode for this PHP framework App.
 ![](images/PHP-frameworks_light-darkMode_screenshot.png)
 
 
